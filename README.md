@@ -1,25 +1,31 @@
-# Netflix Data Analysis Project
+# 🎬 Netflix Data Analysis & Recommendation System
 
-## Overview
-This project explores the Netflix dataset to understand content distribution, ratings, countries, and movie durations.
+## 📌 Project Overview
+This project explores the Netflix dataset to extract insights and build a content-based recommendation system.
 
-## Objectives
-- Clean and prepare the dataset
-- Perform exploratory data analysis (EDA)
-- Extract insights from Netflix content
+## 🚀 Features
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Data visualization
+- Content-based recommendation system
 
-## Key Insights
-- Movies dominate over TV Shows
-- Content increased after 2015
-- Most movies are between 90–120 minutes
-- TV-MA and TV-14 are common ratings
+## 🧠 Recommendation System
+The system recommends similar Netflix titles based on:
+- Genres (`listed_in`)
+- Description
 
-## Tools Used
+### ⚙️ Methodology
+- Feature Engineering (combining text data)
+- TF-IDF vectorization
+- Cosine similarity
+- 
+- ## ⚙️ Technologies Used
 - Python
 - Pandas
+- NumPy
 - Matplotlib
-- JupyterLab
-
+- Scikit-learn
+- 
 ## Project Structure
 - data/
 - notebooks/
